@@ -1,0 +1,37 @@
+project_name: SimpleDiffusion
+
+__base__:
+  - config/dataset.yaml
+
+model:
+  name: model.net.net
+  params:
+    class_num: 1
+    mask_chans: 1
+    depth_chans: 3
+
+cond_uvit:
+  name: model.net.EmptyObject
+  params:
+    conditioning_klass: model.net.EmptyObject
+
+diffusion_model:
+  name: model.SimpleDiffusion.CondGaussianDiffusion
+  params:
+    model: #model
+    image_size: 384
+    channels: 1
+    cond_channels: 3
+    depth_channels: 3
+    noise_d: 64
+    num_sample_steps: 10
+    clip_sample_denoised: True
+    pred_objective: 'x0'
+    loss_type: 'model.loss.structure_loss'
+
+optimizer:
+  name: torch.optim.AdamW
+  params:
+    lr: 1e-4
+
+train_val_forward_fn: "model.train_val_forward.modification_train_val_forward"

@@ -1,0 +1,17 @@
+train_dataset:
+  name: dataset.data_val.PolypObjDataset
+  params:
+    image_root: '/data/RGBD/train/RGB/'
+    gt_root: '/data/RGBD/train/GT/'
+    depth_root: '/data/RGBD/train/depths/'
+    trainsize: 384
+    boundary_modification: True
+
+test_dataset:
+  NJU2K:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/data/RGBD/test/NJU2K/RGB/'
+      gt_root: '/data/RGBD/test/NJU2K/GT/'
+      depth_root: '/data/RGBD/test/NJU2K/depth/'
+      testsize: 384
