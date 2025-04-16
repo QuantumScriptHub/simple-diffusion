@@ -6,7 +6,7 @@
 ![Static Badge](https://img.shields.io/badge/welcome-green?style=flat&label=PRs&labelColor=black&color=green)
 ![Static Badge](https://img.shields.io/badge/Python-green?style=flat&label=Language&labelColor=black&color=green)
 
-## ⭐ [Appendix](https://github.com/QuantumScriptHub/simple-diffusion/blob/main/denoising-diffusion-pytorch/images/supp.pdf)
+## 🎮 [Appendix](https://github.com/QuantumScriptHub/simple-diffusion/blob/main/denoising-diffusion-pytorch/images/supp.pdf)
 For a more comprehensive and detailed visual demonstration, please refer to our extensive [supplementary materials](https://github.com/QuantumScriptHub/simple-diffusion/blob/main/denoising-diffusion-pytorch/images/supp.pdf). 
 
 In our supplementary materials, you will find a more detailed theoretical analysis of SimpleDiffusion, along with comprehensive experimental details and comparisons. Make sure not to miss it!
