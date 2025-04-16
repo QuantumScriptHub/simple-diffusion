@@ -6,6 +6,11 @@
 ![Static Badge](https://img.shields.io/badge/welcome-green?style=flat&label=PRs&labelColor=black&color=green)
 ![Static Badge](https://img.shields.io/badge/Python-green?style=flat&label=Language&labelColor=black&color=green)
 
+## ⭐ [Appendix](https://github.com/QuantumScriptHub/simple-diffusion/blob/main/denoising-diffusion-pytorch/images/supp.pdf)
+For a more comprehensive and detailed visual demonstration, please refer to our extensive [supplementary materials](https://github.com/QuantumScriptHub/simple-diffusion/blob/main/denoising-diffusion-pytorch/images/supp.pdf). 
+
+In our supplementary materials, you will find a more detailed theoretical analysis of SimpleDiffusion, along with comprehensive experimental details and comparisons. Make sure not to miss it!
+
 ##  📢 Overview
 <p align="justify">
 Preserving the edge details of salient objects and promoting the alignment and fusion of cross-modal features have consistently been two primary objectives of multi-modal salient object detection (MSOD), which typically integrates depth or thermal modalities. Recently, with the remarkable success of diffusion models in the field of image generation, several studies have proposed a novel paradigm that reformulates RGB SOD or MSOD as a conditional mask-generation process powered by diffusion models. These methods leverage an iterative denoising process to progressively refine predictions under the guidance of salient feature conditions, thereby enhancing the edge details of the generated salient objects. 
