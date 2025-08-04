@@ -1,5 +1,5 @@
 # SimpleDiffusion
-## A Simple Conditional Diffusion Model for Multi-Modal Salient Object Detection
+## A Lightweight and Efficient Conditional Diffusion Model for Multi-Modal Salient Object Detection
 ![Static Badge](https://img.shields.io/badge/Apache-blue?style=flat&label=license&labelColor=black&color=blue)
 ![Static Badge](https://img.shields.io/badge/passing-green?style=flat&label=build&labelColor=black&color=green)
 ![Static Badge](https://img.shields.io/badge/passing-green?style=flat&label=circleci&labelColor=black&color=green)
